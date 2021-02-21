@@ -34,7 +34,7 @@ public class UserController {
 		@ApiResponse(code = 400, message = "Invalid request"),
 		@ApiResponse(code = 500, message = "Internal server error")
 	})
-    public ResponseEntity<UserResponseDto> createUser(@Valid @RequestBody UserRequestDto userRequestDto) throws Exception {
+    public ResponseEntity<UserResponseDto> createUser(@Valid @RequestBody UserRequestDto userRequestDto) {
 		boolean isExistEmail = emailService.checkExistEmail(userRequestDto.getEmail());
 		if(isExistEmail) {
 			throw new ServiceRuntimeException(
