@@ -11,13 +11,12 @@
    - *Mục tiêu 4*
    - *Mục tiêu 5*
 
-2. 
-  1. Đáp án của tôi là team C bởi vì:
+2. Đáp án của tôi là team C bởi vì:
    - *Việc áp dụng CleanCode là quá trình, áp dụng quy tắc dễ nhớ dễ hiểu sẽ không mất quá nhiều thời gian cho nó, thay vào đó tập trung vào chức năng, lợi ích của phần mềm đem lại cho khách hàng*.
    - *Đảm bảo được tiến độ, deadline mà KH đưa ra.*
-  2. Lý do không chọn đáp án khác:
-   - *Đáp án A: Chỉ phù hợp với những dự án cần demo sản phẩm càng sớm càng tốt (startup), KH yêu cầu deadline gấp.*
-   - *Đáp án B: Không hợp lý vì dành quá nhiều thời gian CleanCode (30%) sẽ làm mất nhiều chi phí về nhân lực, thời gian và đôi khi sẽ bị trễ deadline của KH.*
+   - Lý do không chọn đáp án khác:
+      - *Đáp án A: Chỉ phù hợp với những dự án cần demo sản phẩm càng sớm càng tốt (startup), KH yêu cầu deadline gấp.*
+      - *Đáp án B: Không hợp lý vì dành quá nhiều thời gian CleanCode (30%) sẽ làm mất nhiều chi phí về nhân lực, thời gian và đôi khi sẽ bị trễ deadline của KH.*
 
 3. Bạn là một team lead, khi bạn giới thiệu các quy tắc Clean Code cho các đồng đội trẻ. Có một số bạn cho rằng Clean Code chỉ làm phức tạp thêm vấn đề, và chậm lại hiệu suất làm việc của nhóm. Bạn sẽ trả lời họ thế nào?
    - *CleanCode sẽ giúp cả team dễ dàng maintain sau này, tuy nhiên việc áp dụng CleanCode sẽ tùy thuộc vào tình huống dự án* 
