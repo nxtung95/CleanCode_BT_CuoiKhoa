@@ -233,6 +233,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
 
 ---
 --> Đáp án A
+
 22. Anti-pattern Jaywalking phù hợp trong trường hợp nào?
    ```
       A. Cần thống kê dễ dàng.
@@ -241,6 +242,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
       D. Không có đáp án nào chính xác.
    ```
 ---
+--> Đáp án A
 
 23. Đâu không phải là giải pháp phù hợp để thay thế cho anti-pattern Multi-column Attributes? Giả sử tôi cần lưu các tag của một article.
    ```
@@ -249,6 +251,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
       C. Tạo một bảng riêng để lưu các tag của article.
    ```
 ---
+--> Đáp án C
 
 24. Nếu sử dụng anti-pattern Entity-Value-Attribute, giả sử đối tượng có 5 thuộc tính, vậy tôi cần thực hiện tất cả bao nhiêu phép JOIN để lấy đủ thông tin của 5 thuộc tính?
    ```
@@ -258,6 +261,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
       D. 6
    ```
 ---
+--> Đáp án C
 
 25. Tree model nào không dễ để query child node ngay dưới?
    ```
@@ -266,3 +270,4 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
       C. Nested Set
       D. Closure table
    ```
+--> Đáp án C
