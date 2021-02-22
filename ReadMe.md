@@ -40,7 +40,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
    C. Giúp tăng tính gắn kết (high cohesion) và giảm sự phụ thuộc (low coupling) giữa các thành phần trong phần mềm.
    ```
 ---
---> Đáp án C
+**--> Đáp án C
 
 2. Các OOP Design Pattern được chia làm mấy nhóm?
    ```
@@ -50,7 +50,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
    D. 5
    ```
 ---
---> Đáp án B
+**--> Đáp án B
 
 3. Các design pattern của nhóm Behavioral pattern có đặc điểm nào dưới đây?
    ```
@@ -60,7 +60,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
    D. Quan tâm đến cách giao tiếp giữa các lớp và các đối tượng.
    ```
 ---
---> Đáp án D
+**--> Đáp án D
 
 4. Trong trường hợp client muốn khởi tạo một đối tượng mà không cần quan tâm logic khởi tạo đối tượng hoặc không biết rõ lớp của đối tượng thì chúng ta nên áp dụng design pattern nào đã được học?
    ```
@@ -70,7 +70,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
    D. Strategy
    ```
 ---
---> Đáp án C
+**--> Đáp án C
 
 5. Cách cài đặt Bill Pugh của Singleton pattern có đảm bảo thread-safe hay không?
    ```
@@ -79,7 +79,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
    C. Một số trường hợp thì có, một số trường hợp thì không
    ```
 ---
---> Đáp án A
+**--> Đáp án A
 
 6. Đối tượng được khởi tạo bằng Builder pattern có điểm gì khác biệt so với đối tượng được khởi tạo bằng cách thông thường (thông qua toán tử new, rồi sau đó set các giá trị thông qua setter method)?
    ```
@@ -87,7 +87,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
    B. Immutable
    ```
 ---
---> Đáp án B
+**--> Đáp án B
 
 7. Khi sử dụng annotation @Builder của Lombok thì đối tượng được khởi tạo có đảm bảo immutable hay không?
    ```
@@ -95,7 +95,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
    B. Có
    ```
 ---
---> Đáp án A
+**--> Đáp án A
 
 8. Trong design pattern Flyweight, chúng ta lưu trữ loại dữ liệu nào trong bộ nhớ cache (flyweight factory)?
    ```
@@ -104,7 +104,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
    C. Cả A và B
    ```
 ---
---> Đáp án A
+**--> Đáp án A
 
 9. Nếu có nhiều class chứa các thuật toán gần như giống hệt nhau và chỉ có một số ít khác biệt, thì chúng ta sẽ áp dụng design pattern nào đã được học để tránh bị lặp lại code, cũng như tốn ít công sức sửa code nếu có yêu cầu phải thay đổi tất cả các thuật toán?
    ```
@@ -114,7 +114,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
    D. Builder
    ```
 ---
---> Đáp án B
+**--> Đáp án B
 
 10. Một tác vụ có nhiều thuật toán để xử lý. Để dễ dàng chuyển đổi thuật toán tại thời điểm chạy chương trình tùy theo request từ phía client, chúng ta sẽ áp dụng design pattern nào đã được học?
    ```
@@ -124,7 +124,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
       D. Flyweight
    ```
 ---
---> Đáp án A
+**--> Đáp án A
 
 11. REST là gì?
    ```
@@ -135,7 +135,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
    ```
 
 ---
---> Đáp án D
+**--> Đáp án D
 
 12. Đâu không phải là đặc điểm của một hệ thống RESTful?
    ```
@@ -145,7 +145,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
       D. Hệ thống có thể chia thể chia thành nhiều layer.
    ```
 ---
---> Đáp án C
+**--> Đáp án C
 
 13. Khi RESTful API có nhiệm vụ thêm mới một resource, chúng ta nên sử dụng HTTP method nào?
    ```
@@ -155,7 +155,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
       D. DELETE
    ```
 ---
---> Đáp án B
+**--> Đáp án B
 
 14. HTTP method nào không đảm bảo idempotent trong tất cả các trường hợp?
    ```
@@ -165,7 +165,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
       D. B và C
    ```
 ---
---> Đáp án B
+**--> Đáp án B
 
 15. Chúng ta nên sử dụng query parameter cho những trường hợp nào?
    ```
@@ -175,7 +175,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
       D. Cả 3 đáp án trên
    ```
 ---
---> Đáp án D
+**--> Đáp án D
 
 16. Các interface/class có nhiệm vụ thao tác với cơ sở dữ liệu được đặt ở layer nào?
    ```
@@ -184,7 +184,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
       C. Controller
    ```
 ---
---> Đáp án B
+**--> Đáp án B
 
 17. Các bạn đã được tìm hiểu mấy phương pháp đánh version cho RESTful API trong khóa học?
    ```
@@ -194,7 +194,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
       D. 4
    ```
 ---
---> Đáp án D
+**--> Đáp án D
 
 18. Trong Spring Framework, phương pháp xử lý lỗi nào dưới đây cho phép chúng ta xử lý lỗi ở mức toàn ứng dụng (global)?
    ```
@@ -203,7 +203,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
       C. Throw ResponseStatusException
    ```
 ---
---> Đáp án A
+**--> Đáp án A
 
 19. Để thông báo cho người quản trị hệ thống biết một chức năng đã gặp lỗi, chúng ta nên sử dụng log level nào?
    ```
@@ -213,7 +213,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
       D. WARNING
    ```
 ---
---> Đáp án C
+**--> Đáp án C
 
 20. Để cảnh báo việc tiến trình có thể không chạy đúng với logic, nhưng ứng dụng vẫn có thể tiếp tục, chúng ta nên sử dụng log level nào?
    ```
@@ -223,7 +223,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
       D. ERROR
    ```
 ---
---> Đáp án B
+**--> Đáp án B
 
 21. Có phải method được đánh dấu annotation @Cacheable luôn được thực thi mỗi khi RESTful API được gọi?
    ```
@@ -232,7 +232,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
    ```
 
 ---
---> Đáp án A
+**--> Đáp án A
 
 22. Anti-pattern Jaywalking phù hợp trong trường hợp nào?
    ```
@@ -242,7 +242,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
       D. Không có đáp án nào chính xác.
    ```
 ---
---> Đáp án A
+**--> Đáp án A
 
 23. Đâu không phải là giải pháp phù hợp để thay thế cho anti-pattern Multi-column Attributes? Giả sử tôi cần lưu các tag của một article.
    ```
@@ -251,7 +251,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
       C. Tạo một bảng riêng để lưu các tag của article.
    ```
 ---
---> Đáp án C
+**--> Đáp án C
 
 24. Nếu sử dụng anti-pattern Entity-Value-Attribute, giả sử đối tượng có 5 thuộc tính, vậy tôi cần thực hiện tất cả bao nhiêu phép JOIN để lấy đủ thông tin của 5 thuộc tính?
    ```
@@ -261,7 +261,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
       D. 6
    ```
 ---
---> Đáp án C
+**--> Đáp án C
 
 25. Tree model nào không dễ để query child node ngay dưới?
    ```
@@ -270,4 +270,4 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
       C. Nested Set
       D. Closure table
    ```
---> Đáp án C
+**--> Đáp án C
