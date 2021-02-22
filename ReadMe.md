@@ -13,8 +13,10 @@
 2. Đáp án của tôi là team C bởi vì:
    - *Việc áp dụng CleanCode là quá trình, áp dụng quy tắc dễ nhớ dễ hiểu sẽ không mất quá nhiều thời gian cho nó, thay vào đó tập trung vào chức năng, lợi ích của phần mềm đem lại cho khách hàng*.
    - *Đảm bảo được tiến độ, deadline mà KH đưa ra.*
+   
 3. Bạn là một team lead, khi bạn giới thiệu các quy tắc Clean Code cho các đồng đội trẻ. Có một số bạn cho rằng Clean Code chỉ làm phức tạp thêm vấn đề, và chậm lại hiệu suất làm việc của nhóm. Bạn sẽ trả lời họ thế nào?
-   *- CleanCode sẽ giúp cả team dễ dàng maintain sau này, tuy nhiên việc áp dụng CleanCode sẽ không phải bắt buộc, chúng ta nên áp dụng một cách linh hoạt, tránh tư duy áp đặt. Điều này sẽ giúp các thành viên trong team thoải mái làm việc cũng như tuân theo rule của dự án.*
+   - *CleanCode sẽ giúp cả team dễ dàng maintain sau này, tuy nhiên việc áp dụng CleanCode sẽ tùy thuộc vào tình huống dự án* 
+   - *Chúng ta nên áp dụng CleanCode một cách linh hoạt, tránh tư duy áp đặt sẽ giúp các thành viên trong team thoải mái làm việc cũng như tuân theo rule của dự án.*
 4. Trong 4 đề xuất trên đề xuất nào là phù hợp với quy ước trong CleanCode?
    - *Đề xuất của Vân là phù hợp với CleanCode:*
    ```java
