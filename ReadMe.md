@@ -10,13 +10,19 @@
    - *Bất cứ ai cũng có thể đọc và hiểu trong thời gian ngắn*
    - *Mục tiêu 4*
    - *Mục tiêu 5*
-2. Đáp án của tôi là team C bởi vì:
+
+2. 
+  1. Đáp án của tôi là team C bởi vì:
    - *Việc áp dụng CleanCode là quá trình, áp dụng quy tắc dễ nhớ dễ hiểu sẽ không mất quá nhiều thời gian cho nó, thay vào đó tập trung vào chức năng, lợi ích của phần mềm đem lại cho khách hàng*.
    - *Đảm bảo được tiến độ, deadline mà KH đưa ra.*
-   
+  2. Lý do không chọn đáp án khác:
+   - *Đáp án A: Chỉ phù hợp với những dự án cần demo sản phẩm càng sớm càng tốt (startup), KH yêu cầu deadline gấp.*
+   - *Đáp án B: Không hợp lý vì dành quá nhiều thời gian CleanCode (30%) sẽ làm mất nhiều chi phí về nhân lực, thời gian và đôi khi sẽ bị trễ deadline của KH.*
+
 3. Bạn là một team lead, khi bạn giới thiệu các quy tắc Clean Code cho các đồng đội trẻ. Có một số bạn cho rằng Clean Code chỉ làm phức tạp thêm vấn đề, và chậm lại hiệu suất làm việc của nhóm. Bạn sẽ trả lời họ thế nào?
    - *CleanCode sẽ giúp cả team dễ dàng maintain sau này, tuy nhiên việc áp dụng CleanCode sẽ tùy thuộc vào tình huống dự án* 
    - *Chúng ta nên áp dụng CleanCode một cách linh hoạt, tránh tư duy áp đặt sẽ giúp các thành viên trong team thoải mái làm việc cũng như tuân theo rule của dự án.*
+
 4. Trong 4 đề xuất trên đề xuất nào là phù hợp với quy ước trong CleanCode?
    - *Đề xuất của Vân là phù hợp với CleanCode:*
    ```java
@@ -25,6 +31,7 @@
    - *Lý dó là vì:*
       - *Tên method phù hợp với ý nghĩa là tính toán lương theo số năm làm việc.*
       - *Truyền vào argument initialSalary, NthYear phù hợp mục đính tính toán lương vì mỗi nhân viên sẽ có mức lương khởi điểm, thời gian làm việc khác nhau.*
+
 5. Hãy lập trình mô hình hoá nghiệp vụ sau đây. Cụ thể là hãy bổ xung các method để hoàn thiện logic. Quan trọng hãy tuân thủ quy tắc Clean Code.
    - Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/blob/master/phan1/bai5.java]
 ## Phần 2: OOP và SOLID
