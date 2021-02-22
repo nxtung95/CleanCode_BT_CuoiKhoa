@@ -27,10 +27,10 @@
    ```java
    int calculateSalaryAfterYears(int initialSalary, int NthYear);
    ```
-   - *Lý dó là vì:*
+   - Lý dó là vì:
       - *Tên method phù hợp với ý nghĩa là tính toán lương theo số năm làm việc.*
       - *Truyền vào argument initialSalary, NthYear phù hợp mục đính tính toán lương vì mỗi nhân viên sẽ có mức lương khởi điểm, thời gian làm việc khác nhau.*
-   - *Lý do không chọn đáp án khác:*
+   - Lý do không chọn đáp án khác:
       - *Đề xuất của Bob:* 
             + *Thiếu argument initialSalary để tính toán lương dựa vào mức lương khởi điểm của mỗi nhân viên*
       - *Đề xuất của Alice:*
