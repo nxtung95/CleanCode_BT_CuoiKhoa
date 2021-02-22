@@ -7,9 +7,9 @@
 1. 5 mục tiêu chính của Clean Code là
    - *Giúp code dễ đọc, đơn giản, tránh code thừa*
    - *Tăng giá trị cho phần mềm với code hiện tại*
-   - *Bất cứ ai cũng có thể đọc và hiểu trong thời gian ngắn*
-   - *Mục tiêu 4*
-   - *Mục tiêu 5*
+   - *Bất cứ ai cũng có thể đọc và hiểu trong thời gian ngắn, tránh mất thời gian đọc code*
+   - *Hiểu rõ và đem lại chất lượng khi sửa code (open class)*
+   - *Giúp code dễ dàng maintain sau này, giảm chi phí và thời gian fixbug nếu có*
 
 2. Đáp án của tôi là team C bởi vì:
    - *Việc áp dụng CleanCode là quá trình, áp dụng quy tắc dễ nhớ dễ hiểu sẽ không mất quá nhiều thời gian cho nó, thay vào đó tập trung vào chức năng, lợi ích của phần mềm đem lại cho khách hàng*.
