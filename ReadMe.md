@@ -30,14 +30,14 @@
    - *Lý dó là vì:*
       - *Tên method phù hợp với ý nghĩa là tính toán lương theo số năm làm việc.*
       - *Truyền vào argument initialSalary, NthYear phù hợp mục đính tính toán lương vì mỗi nhân viên sẽ có mức lương khởi điểm, thời gian làm việc khác nhau.*
-   - *Lý do không chọn đáp án khác: *
-      - *Đề xuất của Bob: 
-            + Thiếu argument initialSalary để tính toán lương dựa vào mức lương khởi điểm của mỗi nhân viên*
-      - *Đề xuất của Alice: 
-            + Tên method là danh từ -> sai quy tắc
-            + Có thêm arugument joinedData, today nên trong method sẽ phải tính toán thời gian làm việc -> Sai mục đích của method.*
-      - *Đề xuất của Toàn:
-            + Tên method và tên tham số đều bằng tiếng Việt -> sai quy tắc
+   - *Lý do không chọn đáp án khác:*
+      - *Đề xuất của Bob:* 
+            + *Thiếu argument initialSalary để tính toán lương dựa vào mức lương khởi điểm của mỗi nhân viên*
+      - *Đề xuất của Alice:*
+            + *Tên method là danh từ -> sai quy tắc*
+            + *Có thêm arugument joinedData, today nên trong method sẽ phải tính toán thời gian làm việc -> Sai mục đích của method.*
+      - *Đề xuất của Toàn:*
+            + *Tên method và tên tham số đều bằng tiếng Việt -> sai quy tắc*
 
 5. Hãy lập trình mô hình hoá nghiệp vụ sau đây. Cụ thể là hãy bổ xung các method để hoàn thiện logic. Quan trọng hãy tuân thủ quy tắc Clean Code.
    - Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/blob/master/phan1/bai5.java]
