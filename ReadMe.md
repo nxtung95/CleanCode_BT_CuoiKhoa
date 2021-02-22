@@ -40,7 +40,7 @@ Mã nguồn: [https://github.com/nxtung95/CleanCode_BT_CuoiKhoa/tree/master/phan
    C. Giúp tăng tính gắn kết (high cohesion) và giảm sự phụ thuộc (low coupling) giữa các thành phần trong phần mềm.
    ```
 ---
-**--> Đáp án C
+**--> Đáp án C**
 
 2. Các OOP Design Pattern được chia làm mấy nhóm?
    ```
