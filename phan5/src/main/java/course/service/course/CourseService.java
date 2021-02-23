@@ -17,7 +17,7 @@ public class CourseService {
     private final CourseRepository courseRepository;
 
     @Transactional(readOnly = true)
-    @Cacheable(value = "courses", key = "#keyword", condition = "#keyword != null") // Cache find data when keyword != null
+    @Cacheable(value = "courses", key = "#keyword", condition = "#keyword != null") // Caching data when client finds all courses
     public List<CourseResponseDto> findAllCourseByKeywordName(String keyword) {
         Optional<String> nameOption = Optional.ofNullable(keyword);
         keyword = nameOption.isPresent() ? nameOption.get() : "";
