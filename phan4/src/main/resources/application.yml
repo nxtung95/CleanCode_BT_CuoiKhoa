@@ -1,7 +1,7 @@
 logging:
   level:
-    '[course.configuration.logging]': DEBUG
-    '[course.error]': DEBUG
+    course.configuration.logging: DEBUG
+    course.error: ERROR
 
 spring:
   datasource:
