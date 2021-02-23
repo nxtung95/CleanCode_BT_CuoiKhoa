@@ -5,12 +5,12 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Chassis {
-	@Autowired
-	private Door door;
+    @Autowired
+    private Door door;
 
-	@Override
-	public String toString() {
-		return "Chassis [door=" + door + "]";
-	}
-	
+    @Override
+    public String toString() {
+        return "Chassis [door=" + door + "]";
+    }
+
 }

@@ -9,5 +9,5 @@ INSERT INTO students(student_id, year) VALUES
  (2, '01245464576', 5);
  
  INSERT INTO courses(id, teacher_id, name, description, location, opened) VALUES
- (1, 2, 'Spring Boot Fundamental', 'Description 1', 'Hanoi CS1', '2021-02-15'),
+ (1, 2, 'Spring _Boot Fundamental', 'Description 1', 'Hanoi CS1', '2021-02-15'),
  (2, 2, 'Spring Boot Microservice', 'Description 2', 'Hanoi CS1', '2021-02-16');

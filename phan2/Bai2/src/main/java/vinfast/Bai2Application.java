@@ -9,10 +9,10 @@ import vinfast.car.Car;
 @SpringBootApplication
 public class Bai2Application {
 
-	public static void main(String[] args) {
-		ApplicationContext context = SpringApplication.run(Bai2Application.class, args);
-		Car car = context.getBean(Car.class);
-		System.out.println(car);
-	}
+    public static void main(String[] args) {
+        ApplicationContext context = SpringApplication.run(Bai2Application.class, args);
+        Car car = context.getBean(Car.class);
+        System.out.println(car);
+    }
 
 }
