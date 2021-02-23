@@ -15,20 +15,20 @@ import org.modelmapper.ModelMapper;
 @RequiredArgsConstructor
 public class StudentService implements UserService {
 
-	private final ModelMapper modelMapper;
-	private final StudentRepository studentRepository;
-	
-	@Override
-	@Transactional
-	public UserResponseDto saveUser(UserRequestDto userRequestDto) {
-		String name = userRequestDto.getName();
-		String email = userRequestDto.getEmail();
-		String password = userRequestDto.getPassword();
-		int year = userRequestDto.getStudent().getYear();
-		Student student = new Student(name, email, password, year);
-		Student saveStudent = studentRepository.save(student);
-		
-		return modelMapper.map(saveStudent, UserResponseDto.class);
-	}
+    private final ModelMapper modelMapper;
+    private final StudentRepository studentRepository;
+
+    @Override
+    @Transactional
+    public UserResponseDto saveUser(UserRequestDto userRequestDto) {
+        String name = userRequestDto.getName();
+        String email = userRequestDto.getEmail();
+        String password = userRequestDto.getPassword();
+        int year = userRequestDto.getStudent().getYear();
+        Student student = new Student(name, email, password, year);
+        Student saveStudent = studentRepository.save(student);
+
+        return modelMapper.map(saveStudent, UserResponseDto.class);
+    }
 
 }

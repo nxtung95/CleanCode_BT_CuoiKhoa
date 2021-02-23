@@ -11,12 +11,12 @@ import course.dto.CourseResponseDto;
 @Service
 public class SortStrategyByNameOpen implements SortStrategy {
 
-	@Override
-	public List<CourseResponseDto> sort(List<CourseResponseDto> courses) {
-		return courses.stream()
-		.sorted(Comparator.comparing(CourseResponseDto::getName)
-				.thenComparing(Comparator.comparing(CourseResponseDto::getOpened).reversed()))
-		.collect(Collectors.toList());
-	}
+    @Override
+    public List<CourseResponseDto> sort(List<CourseResponseDto> courses) {
+        return courses.stream()
+                .sorted(Comparator.comparing(CourseResponseDto::getName)
+                        .thenComparing(Comparator.comparing(CourseResponseDto::getOpened).reversed()))
+                .collect(Collectors.toList());
+    }
 
 }

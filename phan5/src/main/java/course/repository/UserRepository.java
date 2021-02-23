@@ -9,6 +9,6 @@ import course.entity.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Integer> {
-	@Query("SELECT email FROM #{#entityName} u WHERE u.email = :email")
-	String findByEmail(@Param("email") String email);
+    @Query("SELECT email FROM #{#entityName} u WHERE u.email = :email")
+    String findByEmail(@Param("email") String email);
 }

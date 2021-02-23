@@ -19,8 +19,8 @@ import lombok.RequiredArgsConstructor;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-	protected Integer id;
-    
+    protected Integer id;
+
     protected final String name;
     protected final String email;
     protected final String password;

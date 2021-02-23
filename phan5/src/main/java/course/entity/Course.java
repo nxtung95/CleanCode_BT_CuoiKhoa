@@ -18,15 +18,15 @@ import lombok.Data;
 @Table(name = "courses")
 @Data
 public class Course {
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer id;
-	private String name;
-	private String description;
-	private String location;
-	private Date opened;
-	
-	@ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-	@JoinColumn(name = "teacher_id", nullable = false)
-	private Teacher teacher;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+    private String name;
+    private String description;
+    private String location;
+    private Date opened;
+
+    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @JoinColumn(name = "teacher_id", nullable = false)
+    private Teacher teacher;
 }

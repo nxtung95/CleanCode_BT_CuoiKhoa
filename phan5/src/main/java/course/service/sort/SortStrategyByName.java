@@ -10,10 +10,11 @@ import course.dto.CourseResponseDto;
 
 @Service
 public class SortStrategyByName implements SortStrategy {
-	@Override
-	public List<CourseResponseDto> sort(List<CourseResponseDto> courses) {
-		return courses.stream().sorted(Comparator.comparing(CourseResponseDto::getName))
-		.collect(Collectors.toList());
-	}
+    @Override
+    public List<CourseResponseDto> sort(List<CourseResponseDto> courses) {
+        return courses.stream()
+                .sorted(Comparator.comparing(CourseResponseDto::getName))
+                .collect(Collectors.toList());
+    }
 
 }

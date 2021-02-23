@@ -5,6 +5,6 @@ import lombok.Data;
 
 @Data
 public class StudentDto {
-	@ApiModelProperty(name = "student year", example = "2020")
-	private int year;
+    @ApiModelProperty(name = "student year", example = "2020")
+    private int year;
 }

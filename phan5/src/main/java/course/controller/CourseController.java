@@ -23,27 +23,25 @@ import lombok.RequiredArgsConstructor;
 @RestController
 @RequiredArgsConstructor
 public class CourseController {
-	private final CourseService courseService;
-	private final SortService sortService;
-	private final SortStrategyFactory sortStrategyFactory;
-	private final MapperService<CourseResponseDto, PartialCourseResponseDto> mapperService;
-	
+    private final CourseService courseService;
+    private final SortService sortService;
+    private final SortStrategyFactory sortStrategyFactory;
+    private final MapperService<CourseResponseDto, PartialCourseResponseDto> mapperService;
+
     @GetMapping("api/v1/courses")
     @ApiOperation("Search courses by name or opened")
-    @ApiResponses({
-    	@ApiResponse(code = 200, message = "Search courses successfully"),
-    	@ApiResponse(code = 404, message = "Courses not found")
-    })
+    @ApiResponses({ @ApiResponse(code = 200, message = "Search courses successfully"), })
     public ResponseEntity<List<PartialCourseResponseDto>> searchCourses(
-    		@ApiParam(value = "Search course by name", example = "Spring") @RequestParam(required = false, name = "keyword") String keyWord, 
-    		@ApiParam(value = "Sort course by name or opened", example = "name") @RequestParam(required = false, name = "sortBy") String sortBy
+            @ApiParam(value = "Search course by name", example = "Spring") @RequestParam(required = false, name = "keyword") String keyWord,
+            @ApiParam(value = "Sort course by name or opened", example = "name") @RequestParam(required = false, name = "sortBy") String sortBy
     ) {
-    	List<CourseResponseDto> courses = courseService.findAllCourseByKeywordName(keyWord);
-    	if (sortBy != null) {
-    		sortService.setSortStrategy(sortStrategyFactory.createSortStrategy(sortBy));
-    		courses = sortService.sort(courses);
-    	}
-    	List<PartialCourseResponseDto> response = mapperService.mappingTypeObjectList(courses, PartialCourseResponseDto.class);
-    	return new ResponseEntity<>(response, HttpStatus.OK);
+        List<CourseResponseDto> courses = courseService.findAllCourseByKeywordName(keyWord);
+        if (sortBy != null) {
+            sortService.setSortStrategy(sortStrategyFactory.createSortStrategy(sortBy));
+            courses = sortService.sort(courses);
+        }
+        List<PartialCourseResponseDto> response = mapperService.mappingTypeObjectList(courses,
+                PartialCourseResponseDto.class);
+        return new ResponseEntity<>(response, HttpStatus.OK);
     }
 }
