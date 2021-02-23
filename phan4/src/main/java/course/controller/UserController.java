@@ -37,8 +37,11 @@ public class UserController {
     public ResponseEntity<UserResponseDto> createUser(@Valid @RequestBody UserRequestDto userRequestDto) {
         boolean isExistEmail = emailService.checkExistEmail(userRequestDto.getEmail());
         if (isExistEmail) {
-            throw new ServiceRuntimeException(HttpStatus.BAD_REQUEST, ErrorCode.USER_E004,
-                    String.format(ErrorMessage.USER_E004 + ", email: %s", userRequestDto.getEmail()));
+            throw new ServiceRuntimeException(
+                    HttpStatus.BAD_REQUEST,
+                    ErrorCode.USER_E004,
+                    String.format(ErrorMessage.USER_E004 + ", email: %s", userRequestDto.getEmail())
+            );
         }
         UserService service = userServiceFactory.createUser(userRequestDto.getMode());
         UserResponseDto userResponse = service.saveUser(userRequestDto);

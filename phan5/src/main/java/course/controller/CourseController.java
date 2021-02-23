@@ -30,12 +30,14 @@ public class CourseController {
 
     @GetMapping("api/v1/courses")
     @ApiOperation("Search courses by name or opened")
-    @ApiResponses({ @ApiResponse(code = 200, message = "Search courses successfully"), })
+    @ApiResponses({ 
+        @ApiResponse(code = 200, message = "Search courses successfully"),
+    })
     public ResponseEntity<List<PartialCourseResponseDto>> searchCourses(
-            @ApiParam(value = "Search course by name", example = "Spring") @RequestParam(required = false, name = "keyword") String keyWord,
+            @ApiParam(value = "Search course by keyword name", example = "Spring") @RequestParam(required = false, name = "keyword") String keyword,
             @ApiParam(value = "Sort course by name or opened", example = "name") @RequestParam(required = false, name = "sortBy") String sortBy
     ) {
-        List<CourseResponseDto> courses = courseService.findAllCourseByKeywordName(keyWord);
+        List<CourseResponseDto> courses = courseService.findAllCourseByKeywordName(keyword);
         if (sortBy != null) {
             sortService.setSortStrategy(sortStrategyFactory.createSortStrategy(sortBy));
             courses = sortService.sort(courses);
