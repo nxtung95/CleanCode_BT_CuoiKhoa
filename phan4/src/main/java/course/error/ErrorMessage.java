@@ -8,8 +8,4 @@ public class ErrorMessage {
     public static final String USER_E005 = "User mode is mandatory";
     public static final String USER_E006 = "Unsupported other user";
     public static final String USER_E007 = "User mode is not valid";
-
-    public static final String COURSE_E001 = "Course not found";
-    public static final String DB_COURSE = "Error Database";
-    public static final String OTHER_ERROR = "Internal Server Error";
 }
