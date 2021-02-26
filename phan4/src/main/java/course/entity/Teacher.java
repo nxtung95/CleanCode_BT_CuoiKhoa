@@ -16,9 +16,7 @@ public class Teacher extends User {
     private String phone;
     private int experiences;
 
-    public Teacher(String name, String email, String password, String phone, int experiences) {
-        super(name, email, password);
-        this.phone = phone;
-        this.experiences = experiences;
+    public Teacher() {
+        super();
     }
 }

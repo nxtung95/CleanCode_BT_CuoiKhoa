@@ -19,12 +19,9 @@ public class TeacherService implements UserService {
     @Override
     @Transactional
     public UserResponseDto saveUser(UserRequestDto userRequestDto) {
-        String name = userRequestDto.getName();
-        String email = userRequestDto.getEmail();
-        String password = userRequestDto.getPassword();
-        String phone = userRequestDto.getTeacher().getPhone();
-        int experiences = userRequestDto.getTeacher().getExperiences();
-        Teacher teacher = new Teacher(name, email, password, phone, experiences);
+        Teacher teacher = new Teacher();
+        modelMapper.map(userRequestDto.getTeacher(), teacher);
+        modelMapper.map(userRequestDto, teacher);
         Teacher saveTeacher = teacherRepository.save(teacher);
         return modelMapper.map(saveTeacher, UserResponseDto.class);
     }

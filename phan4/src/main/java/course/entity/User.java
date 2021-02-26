@@ -9,19 +9,19 @@ import javax.persistence.InheritanceType;
 import javax.persistence.Table;
 
 import lombok.Data;
-import lombok.RequiredArgsConstructor;
+import lombok.NoArgsConstructor;
 
 @Data
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
 @Table(name = "users")
-@RequiredArgsConstructor
+@NoArgsConstructor
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     protected Integer id;
 
-    protected final String name;
-    protected final String email;
-    protected final String password;
+    protected String name;
+    protected String email;
+    protected String password;
 }

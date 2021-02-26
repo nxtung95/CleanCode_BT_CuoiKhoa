@@ -21,11 +21,9 @@ public class StudentService implements UserService {
     @Override
     @Transactional
     public UserResponseDto saveUser(UserRequestDto userRequestDto) {
-        String name = userRequestDto.getName();
-        String email = userRequestDto.getEmail();
-        String password = userRequestDto.getPassword();
-        int year = userRequestDto.getStudent().getYear();
-        Student student = new Student(name, email, password, year);
+        Student student = new Student();
+        modelMapper.map(userRequestDto.getStudent(), student);
+        modelMapper.map(userRequestDto, student);
         Student saveStudent = studentRepository.save(student);
 
         return modelMapper.map(saveStudent, UserResponseDto.class);
